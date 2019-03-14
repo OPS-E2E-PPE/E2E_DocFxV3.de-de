@@ -41,7 +41,6 @@
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "E2E_DocFxV3",
-    "markdownEngineName": "markdig"
+    "dest": "E2E_DocFxV3"
   }
 }
