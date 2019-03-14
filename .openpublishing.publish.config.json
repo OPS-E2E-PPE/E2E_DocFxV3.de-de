@@ -1,5 +1,4 @@
 {
-  "need_generate_pdf": false,
   "docsets_to_publish": [
     {
       "docset_name": "E2E_DocFxV3",
@@ -21,13 +20,15 @@
   "notification_subscribers": [],
   "sync_notification_subscribers": [],
   "branches_to_filter": [
-    "live-sxs",
-    "master-sxs"
+    "master-sxs",
+    "live"
   ],
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
-  "contribution_branch_mappings": {},
+  "contribution_branch_mappings": {
+    "live-sxs": "live"
+  },
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -47,6 +48,8 @@
   ],
   "branch_target_mapping": {},
   "need_generate_pdf_url_template": true,
+  "targets": {},
   "use_docfxv3": true,
+  "need_generate_pdf": false,
   "need_generate_intellisense": false
 }
